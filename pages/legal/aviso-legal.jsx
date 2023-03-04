@@ -47,13 +47,13 @@ export default function Legal() {
                   </span>
                 </p>{" "}
                 <p>
-                  <Image
+                  {/*                   <Image
                     width={550}
                     height={400}
                     alt=""
                     loading="lazy"
                     className="aligncenter size-full wp-image-808"
-                  />
+                  /> */}
                 </p>{" "}
                 <h3 style={{ marginTop: 0, verticalAlign: "baseline" }}>
                   <span

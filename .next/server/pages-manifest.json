@@ -2,17 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/keywords/[keywords]": "pages/api/keywords/[keywords].js",
+  "/": "pages/index.js",
+  "/legal/contacto": "pages/legal/contacto.js",
+  "/legal/aviso-legal": "pages/legal/aviso-legal.js",
   "/api/page/[id]": "pages/api/page/[id].js",
   "/api/paginacion": "pages/api/paginacion.js",
-  "/api/posts/[id]": "pages/api/posts/[id].js",
-  "/api/total": "pages/api/total.js",
-  "/legal/aviso-cookies": "pages/legal/aviso-cookies.html",
-  "/legal/aviso-legal": "pages/legal/aviso-legal.html",
-  "/legal/contacto": "pages/legal/contacto.html",
-  "/[single]": "pages/[single].js",
-  "/sitemap.xml": "pages/sitemap.xml.js",
-  "/": "pages/index.js",
-  "/blog": "pages/blog.js",
-  "/404": "pages/404.html"
+  "/blog": "pages/blog.js"
 }
