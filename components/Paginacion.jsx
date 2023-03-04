@@ -3,6 +3,10 @@ export default function Paginacion({ numeroPaginas }) {
   let paginas = (numeroPaginas / 50).toFixed();
   let arr = [...Array(parseInt(paginas)).keys()];
 
+  if (paginas <= 50) {
+    return;
+  }
+
   return (
     <div id="pagination" className="mb-8 mx-auto">
       <div className="flex w-full justify-center gap-2">

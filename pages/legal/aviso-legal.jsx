@@ -17,8 +17,8 @@ export default function Legal() {
       </Head>
       <Header></Header>
       <div className="container mx-auto flex h-full justify-center mt-8 relative">
-        <h1>Aviso de Legal</h1>
         <div data-server-rendered="true" id="__nuxt">
+          <h1 className="m-20">Aviso de Legal</h1>
           {/**/}
           <div id="__layout">
             <div>

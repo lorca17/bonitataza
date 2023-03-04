@@ -58,7 +58,7 @@ export default function Blog({ datosArticulos }) {
                       {/*  <h4>Updated over 2 weeks ago</h4> */}
                     </div>
                   </div>
-                  <h4 className=" text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
+                  <h4 className=" text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800 capitalize">
                     <Link href={e.slug}>{e.titulo.replaceAll('"', "")}</Link>
                   </h4>
                   <p className="text-md my-4 text-gray-500  font-sans">

@@ -34,9 +34,9 @@ export default function Single({ datos }) {
       <div className="container mx-auto px-2">
         <section className="grid md:grid-cols-3 mt-12">
           <main className="col-span-2 relative md:mr-2">
-            <h2 className="text-3xl font-bold text-gray-800 capitalize">
+            <h1 className="text-3xl font-bold text-gray-800 capitalize">
               {datos.titulo.replaceAll('"', "")}
-            </h2>
+            </h1>
 
             <div className="flex mt-2 my-2 items-center gap-4">
               <div className="text-gray-500">
@@ -56,7 +56,7 @@ export default function Single({ datos }) {
                 title={datos.titulo.replaceAll('"', "")}
               />
             </div>
-            <h1 className="my-8 capitalize">{datos.ppa}</h1>
+
             <blockquote className="italic font-semibold font-serif text-gray-800 border-l-4 border-gray-900 my-3 pl-2 ml-8 m-4 sm:mx-8">
               {datos.descripcion}
             </blockquote>
