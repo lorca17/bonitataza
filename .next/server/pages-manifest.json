@@ -11,8 +11,8 @@
   "/legal/aviso-legal": "pages/legal/aviso-legal.html",
   "/legal/contacto": "pages/legal/contacto.html",
   "/[single]": "pages/[single].js",
-  "/blog": "pages/blog.js",
-  "/": "pages/index.js",
   "/sitemap.xml": "pages/sitemap.xml.js",
+  "/": "pages/index.js",
+  "/blog": "pages/blog.js",
   "/404": "pages/404.html"
 }
