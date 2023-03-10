@@ -2,8 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/[single]": "pages/[single].js",
   "/": "pages/index.js",
   "/api/page/[id]": "pages/api/page/[id].js",
-  "/api/posts/[id]": "pages/api/posts/[id].js"
+  "/api/posts/[id]": "pages/api/posts/[id].js",
+  "/blog": "pages/blog.js",
+  "/[single]": "pages/[single].js",
+  "/api/paginacion": "pages/api/paginacion.js"
 }
